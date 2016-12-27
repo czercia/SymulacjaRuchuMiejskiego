@@ -1,0 +1,14 @@
+//
+// Created by Marta on 27.12.2016.
+//
+
+#ifndef PROJEKTSEMESTRALNY_SYMULACJA_H
+#define PROJEKTSEMESTRALNY_SYMULACJA_H
+
+
+class Symulacja {
+
+};
+
+
+#endif //PROJEKTSEMESTRALNY_SYMULACJA_H
