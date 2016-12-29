@@ -12,10 +12,10 @@
 class Linia {
     int numer;
     int dlugoscKursu; //czas calego kursu: tam+postoj+powrot+postoj
-    std::vector<Przystanek*> listaPrzystankow;
+    std::vector<Przystanek *> listaPrzystankow;
     std::vector<int> czasyPrzejazdow;
-    Przystanek* zaj1;
-    Przystanek* zaj2;
+    Przystanek *zaj1;
+    Przystanek *zaj2;
 
     //Flota
     int iloscPojazdow;
@@ -28,9 +28,12 @@ class Linia {
 public:
     //Konstruktorki, destruktorki itp
     Linia() = delete;
-    Linia(int nr, std::vector<int> czasyPrzej, std::vector<Przystanek*> listaPrzyst, int iloscPoj);
-    Linia(const Linia&) = delete;
-    Linia&operator=(Linia&) = delete;
+
+    Linia(int nr, std::vector<int> czasyPrzej, std::vector<Przystanek *> listaPrzyst, int iloscPoj);
+
+    Linia(const Linia &) = delete;
+
+    Linia &operator=(Linia &) = delete;
 
     //
     void wczytajTrase();

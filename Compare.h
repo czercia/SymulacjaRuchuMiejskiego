@@ -6,12 +6,13 @@
 #define PROJEKTSEMESTRALNY_COMPARE_H
 
 #include"Zdarzenie.h"
+class Zdarzenie;
 
 
 class Compare {
 
 public:
-    bool operator()(const Zdarzenie* z1, const Zdarzenie* z2);
+    bool operator()(const Zdarzenie *z1, const Zdarzenie *z2);
 };
 
 
