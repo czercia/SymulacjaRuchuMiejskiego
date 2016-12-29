@@ -8,20 +8,25 @@
 #include <vector>
 #include <queue>
 #include "KolejkaZdarzen.h"
+#include "Przystanek.h"
+#include "Miejsce.h"
+#include "Teatr.h"
 
 
 class Symulacja {
-    KolejkaZdarzen *kolejkaZdarzen;
+    KolejkaZdarzen kolejkaZdarzen;
     int czasTrwania; //czas trwania symulacji w minutach
     std::vector<Przystanek> listaPrzystankow;
     std::vector<Teatr> listaTeatrow;
 
 public:
+    Symulacja() = delete;
 
-    Symulacja(const Symulacja&) = delete;
+    Symulacja(const Symulacja &) = delete;
+
     ~Symulacja();
-    void start();
 
+    void start();
 
 
 };
