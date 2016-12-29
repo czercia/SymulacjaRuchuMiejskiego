@@ -1,0 +1,14 @@
+//
+// Created by Marta on 28.12.2016.
+//
+
+#ifndef PROJEKTSEMESTRALNY_PRZYSTANEK_H
+#define PROJEKTSEMESTRALNY_PRZYSTANEK_H
+
+
+class Przystanek {
+
+};
+
+
+#endif //PROJEKTSEMESTRALNY_PRZYSTANEK_H

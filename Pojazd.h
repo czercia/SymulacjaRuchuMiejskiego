@@ -7,6 +7,9 @@
 
 
 class Pojazd {
+    int pojemnosc;
+    int ileTerazPasazerow;
+    bool wTrasie;
 
 };
 

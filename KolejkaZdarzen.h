@@ -1,0 +1,12 @@
+//
+// Created by Marta on 27.12.2016.
+//
+
+#ifndef PROJEKTSEMESTRALNY_KOLEJKAZDARZEN_H
+#define PROJEKTSEMESTRALNY_KOLEJKAZDARZEN_H
+
+class KolejkaZdarzen{
+
+};
+
+#endif //PROJEKTSEMESTRALNY_KOLEJKAZDARZEN_H
